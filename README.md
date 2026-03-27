@@ -20,7 +20,7 @@ Reporting & Visuals: quantstats, plotly, matplotlibFrontend Deployment: streamli
 
 ## 💻 How to Run the Dashboard Locally
 
-git clone [this git repo](https://github.com/chubaz/QuantPortfolio.git)
+git clone https://github.com/chubaz/QuantPortfolio.git
 cd quant-portfolio-project
 
 # 2. Install dependencies
