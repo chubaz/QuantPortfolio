@@ -9,8 +9,10 @@ This project demonstrates production-grade data sanitization, Walk-Forward hyper
 - SciPy-Based Optimizer: Replaces naive equal-weighting with a Sequential Least SQuares Programming (SLSQP) solver. Maximizes risk-adjusted utility subject to a 15% maximum position limit.
 - Interactive Web App: A Streamlit dashboard allowing users to manipulate transaction costs (bps), weight constraints, and factor blends on the fly.
 
-### 🛠️ Tech StackCore Math & Data: pandas, numpy, scipy (SLSQP solver)Financial Data: yfinance (Prices & Fundamentals)
-Reporting & Visuals: quantstats, plotly, matplotlibFrontend Deployment: streamlit
+### 🛠️ Tech StackCore Math & Data: pandas, numpy, scipy (SLSQP solver)
+Financial Data: yfinance (Prices & Fundamentals)
+Reporting & Visuals: quantstats, plotly, matplotlib
+Frontend Deployment: streamlit
 
 ### 🧠 Quantitative Risk Controls
 - Matrix Regularization: Injects tiny constants ($1e-6$) to covariance diagonals to prevent Singular Matrix (LinAlgError) crashes.
