@@ -31,6 +31,7 @@ To maintain transparency, the following limitations of this current research env
 ## 💻 How to Run the Dashboard Locally
 
 git clone https://github.com/chubaz/QuantPortfolio.git
+
 cd quant-portfolio-project
 
 # 2. Install dependencies
