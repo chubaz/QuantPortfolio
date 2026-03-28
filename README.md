@@ -18,6 +18,16 @@ Reporting & Visuals: quantstats, plotly, matplotlibFrontend Deployment: streamli
 - Turnover Friction: Simulates realistic execution drag by penalizing the backtest 20 bps per gross turnover.
 
 
+## ⚠️ Research Disclosure & Known Biases
+
+To maintain transparency, the following limitations of this current research environment are disclosed:
+
+1. **Survivorship Bias:** The current universe uses modern S&P 500 constituents. In a production environment, a "Point-in-Time" universe would be used to include companies that were subsequently delisted.
+2. **Look-Ahead Bias Mitigation:** Fundamental data (ROE) is manually lagged by 90 days to simulate standard earnings reporting cycles.
+3. **Execution Assumptions:** This model assumes "at-the-close" execution on the last business day of each month. In reality, market impact and slippage for large orders may vary from the flat 20bps assumption.
+4. **Liquidity Filter:** The current 30-name universe is a proxy for high-liquidity stocks. A production version would require a dynamic median-daily-volume (MDV) filter.
+
+
 ## 💻 How to Run the Dashboard Locally
 
 git clone https://github.com/chubaz/QuantPortfolio.git
